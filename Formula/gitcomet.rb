@@ -1,25 +1,25 @@
 class Gitcomet < Formula
   desc "Fast, resource-efficient Git GUI written in Rust"
   homepage "https://github.com/Auto-Explore/GitComet"
-  version "0.1.2"
+  version "0.1.3"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.2/gitcomet-v0.1.2-macos-arm64.tar.gz"
-      sha256 "8904aad926295a8a21b8ef866e2012af0ef15c1e05b759e21b25db0bfc033060"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.3/gitcomet-v0.1.3-macos-arm64.tar.gz"
+      sha256 "c0bb43c60dfb022a380ef705e9f6bd4ef8e3a8fcd05b5cafa08b2d98a3575242"
     end
 
     on_intel do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.2/gitcomet-v0.1.2-macos-x86_64.tar.gz"
-      sha256 "dc45a141c4e2511e3bc76e1d4877a05cc1e7ab50ac086e736814042c8d35826f"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.3/gitcomet-v0.1.3-macos-x86_64.tar.gz"
+      sha256 "6bd4624eed9e5ddfc07c59fadda43e45a9ffe09d5d1d43bc24c38ca2b9177209"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.2/gitcomet-v0.1.2-linux-x86_64.tar.gz"
-      sha256 "4479970f53abe2fe68e1f9e583e94b2e3cd33bcb218846bdb90a2b861465c131"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.3/gitcomet-v0.1.3-linux-x86_64.tar.gz"
+      sha256 "166a77987cf181634881cd4747ac19ca4a622ec656e07c2614bd95f3f1a4ce7a"
     end
   end
 
