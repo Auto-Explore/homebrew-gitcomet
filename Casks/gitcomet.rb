@@ -1,8 +1,8 @@
 cask "gitcomet" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.7"
-  sha256 arm: "a5b0d1547c30b404b50c9c54951c4089d724b2eb9dffe9263f19e4f7fa4e39cf", intel: "0bea73d4182b0ca0bf6419a340078bca7ea9652175d21a43ffdbc82eff30b12d"
+  version "0.1.8"
+  sha256 arm: "0bf7211d8fe52ccf2beba347a9ed44d790d67add696d549b1f5684f218f9b844", intel: "117040c5717e4d0a5b5c891cf6d704347a18184ee6a3aa8b89ccfb31f24934cb"
 
   url "https://github.com/Auto-Explore/GitComet/releases/download/v#{version}/gitcomet-v#{version}-macos-#{arch}.dmg"
   name "GitComet"
