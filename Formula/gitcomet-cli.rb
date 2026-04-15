@@ -1,30 +1,30 @@
 class GitcometCli < Formula
   desc "GitComet command-line binary"
   homepage "https://github.com/Auto-Explore/GitComet"
-  version "0.1.10"
+  version "0.1.11"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.10/gitcomet-v0.1.10-macos-arm64.tar.gz"
-      sha256 "5b634d213fee665042c77fa3d0be83c1009bcfafda2e4b106a6af717407e3794"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.11/gitcomet-v0.1.11-macos-arm64.tar.gz"
+      sha256 "c1b1a069726f6044d553f04cf27d2d6e1456912beee7cd967a0f5a659959fc02"
     end
 
     on_intel do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.10/gitcomet-v0.1.10-macos-x86_64.tar.gz"
-      sha256 "aa2d77be34f669422d08fd243265bd890be0c3ac2512f1c4dde540c4c0043aa4"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.11/gitcomet-v0.1.11-macos-x86_64.tar.gz"
+      sha256 "4b61b6b51032b7df3c22ffef7c25e3eae5a95239684fb3104d31149acadbb919"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.10/gitcomet-v0.1.10-linux-arm64.tar.gz"
-      sha256 "125e7eadae985db0b0c6d7d1c24be1a1d06ae812be2bd3e85e82786b0ee0accd"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.11/gitcomet-v0.1.11-linux-arm64.tar.gz"
+      sha256 "df17c7424e65477c1934080ab4192b69c5d4741f8ff97a17e1641f2dd11ce996"
     end
 
     on_intel do
-      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.10/gitcomet-v0.1.10-linux-x86_64.tar.gz"
-      sha256 "e8a448615374142434163e3c2560cd360405dd68c10739901e14c9af26877c43"
+      url "https://github.com/Auto-Explore/GitComet/releases/download/v0.1.11/gitcomet-v0.1.11-linux-x86_64.tar.gz"
+      sha256 "6e6b8820054a3c0716dd49c690b6d715f9a27154e287857c24710cce936cf6be"
     end
   end
 
