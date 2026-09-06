@@ -1,15 +1,15 @@
 cask "gitcomet" do
-  version "0.2.2"
+  version "0.2.3"
   arch arm: "arm64", intel: "x86_64"
   os macos: "macos", linux: "linux"
 
   on_macos do
     on_arm do
-      sha256 "a9283796a0606e25b9f6407d9c9840ea1af4b4307433443b00d9dfc14c0fb46e"
+      sha256 "03c09bdafb3708c089fc7090d90dd6ca2fbdec0ab3fd9138aaebe44a5fb9d4b1"
     end
 
     on_intel do
-      sha256 "d18bed3afcadcc49bd3708fd61d8f8041129417828d31177e89e5b72eaa52263"
+      sha256 "68e07e85678a686c0928d1b9abbc09f743dbb8860501ac6786faf7394c3a72e0"
     end
 
     url "https://github.com/Auto-Explore/GitComet/releases/download/v#{version}/gitcomet-v#{version}-macos-#{arch}.dmg"
@@ -21,11 +21,11 @@ cask "gitcomet" do
 
   on_linux do
     on_arm do
-      sha256 "157de0d849ac3131b5b8485fa5b0a77cf727a42a5a5da71d8fbd2fae8ca6633e"
+      sha256 "8bede3c1a1f4ecedb4f2537504cd188362dba168bca3d06a3e49affa65d9f97d"
     end
 
     on_intel do
-      sha256 "5b633b88fb451214a6676a5c96966d75982ec37cb14368486abdba76d575bbf3"
+      sha256 "6502994a00e0a44c2a35ffaa69f10ad821d2c87c2cc147d3ad90f8fec70740e4"
     end
 
     url "https://github.com/Auto-Explore/GitComet/releases/download/v#{version}/gitcomet-v#{version}-linux-#{arch}.AppImage"
